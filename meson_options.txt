@@ -1,0 +1,2 @@
+option('vmlinux', type : 'string', value : '/sys/kernel/btf/vmlinux',
+       description: 'path to vmlinux file for BTF extraction')
