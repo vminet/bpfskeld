@@ -1,0 +1,9 @@
+[Unit]
+Description=BPF skeleton monitoring daemon
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/bpfskeld
+
+[Install]
+WantedBy=multi-user.target
